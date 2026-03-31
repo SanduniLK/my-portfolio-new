@@ -108,13 +108,7 @@ export function Navbar() {
               <ThemeToggle />
               
               {/* Write Blog Button */}
-              <Link
-                href="/admin/blog"
-                className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full text-sm font-medium hover:shadow-lg hover:shadow-blue-500/25 transition-all hover:scale-105"
-              >
-                <PenSquare size={16} />
-                Write Blog
-              </Link>
+             
               
               {/* Social Icons */}
               <div className="flex items-center gap-2 pl-2 border-l border-gray-200 dark:border-gray-700">
@@ -184,20 +178,7 @@ export function Navbar() {
                 ))}
                 
                 {/* Write Blog Button for Mobile */}
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.4 }}
-                >
-                  <Link
-                    href="/admin/blog"
-                    onClick={() => setIsOpen(false)}
-                    className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium hover:shadow-lg transition-all mt-4"
-                  >
-                    <PenSquare size={18} />
-                    Write Blog
-                  </Link>
-                </motion.div>
+                
               </div>
               
               {/* Mobile Footer with Social Icons */}
