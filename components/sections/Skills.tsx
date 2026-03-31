@@ -29,7 +29,7 @@ const skillCategories = [
     icon: Smartphone,
     color: "from-purple-500 to-pink-500",
     skills: [
-      { name: "Flutter", level: 80 },
+      { name: "Flutter", level: 90 },
       { name: "React Native", level: 75 }
     ]
   },
@@ -157,7 +157,7 @@ export function Skills() {
           {[
             { label: "Projects Completed", value: "9+", icon: Award },
             { label: "University", value: "UoM", icon: GraduationCap },
-            { label: "Testing Focus", value: "Mobile", icon: TestTube },
+            { label: "Development", value: "Mobile", icon: TestTube },
             { label: "Testing Focus", value: "QA", icon: TestTube },
             { label: "Git Repos", value: "21+", icon: GitBranch },
           ].map((stat, i) => (

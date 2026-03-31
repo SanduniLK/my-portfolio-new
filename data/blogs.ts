@@ -397,7 +397,7 @@ void main() {
     
     <p>Happy Fluttering! 🚀</p>
   `,
-  image: "/images/blogs/flutter-guide.jpg",
+  image: "/images/projects/how-to-learn-flutter_orig.jpg",
   category: "Mobile",
   author: "Reshika Geeganage",
   date: "Mar 30, 2026",
@@ -423,7 +423,7 @@ void main() {
     
     <!-- Add the rest of your HTML content here -->
   `,
-  image: "/images/blogs/flutter-red-screen-errors.jpg",
+  image: "/images/projects/flutter-red-screen-errors.jpg.png",
   category: "mobile",
   author: "Reshika Geeganage",
   date: "Mar 31, 2026",
