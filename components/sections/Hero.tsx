@@ -104,17 +104,7 @@ export function Hero() {
             </motion.h1>
 
             {/* Title - QUALITY ASSURANCE ENGINEER */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.15 }}
-              className="mb-4"
-            >
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl text-white font-bold">
-                QUALITY ASSURANCE ENGINEER
-              </h2>
-            </motion.div>
-
+            
             {/* Education */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
